@@ -1,0 +1,2 @@
+IP assign
+#nmcli connection show
