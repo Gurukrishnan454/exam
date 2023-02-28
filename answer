@@ -1,2 +1,6 @@
+Assign hostname: 
+#hostnamectl set-hostname servera.lab.example.com
+#hostnamectl
+
 IP assign
 #nmcli connection show
