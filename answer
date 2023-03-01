@@ -4,3 +4,6 @@ Assign hostname:
 
 IP assign
 #nmcli connection show
+#nmcli connection modify "Wired connection 1" ipv4.addresses 172.25.250.10/24 ipv4.gateway 172.25.250.254 ipv4.dns 172.25.250.254 ipv4.method manual 
+#nmcli connection up "Wired connection" 
+#nmcli connection show "Wired connection" |grep ipv4.
